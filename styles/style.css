@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%rem;
+    font-family: 'Spartan', sans-serif;
+}
+
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsla(332, 74%, 79%, 0.281);
+    --Dark-Grayish-Magenta: rgb(186,79,240);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%)
+  }
+
+
+ h1 {
+    
+    font-size: 1.5rem;
+    color: var(--Very-Dark-Magenta);
+    text-align: center;
+    width: 53%;
+    margin-left: 26%;
+    margin-top: 15%;
+    
+ } 
+ 
+ 
+
+.main-header #bk-image img {
+    margin-right: 10%;
+    position: absolute;
+    display: inline;
+    padding-right: 10%;
+}
+
+.main-header {
+    display: flow-root;
+}
+
+.main-description {
+    
+    font-weight: 400;
+    font-size: 0.82rem;
+    text-align: center;
+    width: 81%;
+    margin-left: 11%;
+    margin-top: 5%;
+    margin-bottom: 6%;
+
+}
+
+.rate-section{
+    margin-bottom: 7%;
+}
+
+.rate-section  img {
+    padding-right: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+    
+    
+}
+
+.rate-container{
+    margin-top: 3%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 80%;
+    margin-left: 11%;
+    border-radius: 6%;
+    background-color: var(--Soft-Pink);
+    
+
+}
+
+.rate-container p {
+    font-size: .8rem;
+    color: purple;
+    font-weight: bold;
+}
+
+.integrates-box{
+    margin-top: 4%;
+    background-color:var(--Very-Dark-Magenta);
+    width: 80%;
+    margin-left: 10.5%;
+    border-radius: 6%;
+    display: inline-block;
+}
+
+.integrates-box img {
+    border-radius: 50%;
+    width: 15%;
+    margin-top: 10%;
+    margin-left: 8%;
+    
+}
+
+.integrates-box #title-descrp {
+    display: inline-block;
+    color: white;
+    font-size: .8rem;
+    font-weight: 700;
+    margin-left: 5%;
+    padding-bottom: 2%;
+}
+#title-descrp {
+    margin-top: 12%;
+    position: absolute;
+}
+
+#cargue {
+    color: var(--Dark-Grayish-Magenta);
+}
+
+#integrates-description {
+    padding-top: 7%;
+    color: var(--White);
+    font-size: .76rem;
+    width: 84%;
+    text-align: initial;
+    margin-left: 7%;
+    margin-bottom: 8%;
+}
+
+.attribution {
+    
+    width: 100%;
+    font-size: 0.6rem;
+    text-align: center;
+    padding-top: 2%;
+    text-decoration: none;
+}
+
+
+
+
